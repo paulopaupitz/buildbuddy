@@ -11,8 +11,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_marginHorizontal="40dp"
-        android:layout_marginVertical="30dp"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_marginVertical="30dp">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -71,10 +70,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="130dp"
-            android:text="Cadastrar"
-            android:textSize="16dp"
             android:fontFamily="@font/roboto_bold"
-            android:textColor="@color/c6" />
+            android:text="Cadastrar"
+            android:textColor="@color/c6"
+            android:textSize="16dp" />
     </LinearLayout>
 
 </RelativeLayout>
