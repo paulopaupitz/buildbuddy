@@ -7,154 +7,92 @@
     tools:context=".Cadastrar">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
-
-        <TextView
-            android:id="@+id/textView21"
-            android:layout_width="match_parent"
-            android:layout_height="45dp"
-            android:text="Cadastrar"
-            android:textAlignment="center"
-            android:textSize="34sp" />
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="30dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/textView23"
-                android:layout_width="2dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
-                android:text="Nome:"
-                android:textSize="24sp" />
-
-            <EditText
-                android:id="@+id/et_rname"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:ems="10"
-                android:inputType="text" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="11dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView24"
-                android:layout_width="136dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Login:"
-                android:textSize="24sp" />
-
-            <EditText
-                android:id="@+id/et_rlogin"
-                android:layout_width="341dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:ems="10"
-                android:inputType="text" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView24"
-                android:layout_width="2dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Email:"
-                android:textSize="24sp" />
-
-            <EditText
-                android:id="@+id/et_remail"
+            <Button
+                android:id="@+id/bt_voltarP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:ems="10"
-                android:inputType="text|textEmailAddress" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="19dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+                />
 
             <TextView
-                android:id="@+id/textView24"
-                android:layout_width="134dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Senha:"
-                android:textSize="24sp" />
-
-            <EditText
-                android:id="@+id/et_novaSenha"
+                android:id="@+id/textView21"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:ems="10"
-                android:inputType="text|textPassword" />
+                android:layout_height="wrap_content"
+                android:text="Cadastro"
+                android:textAlignment="center"
+                android:textSize="34sp" />
 
         </LinearLayout>
 
-        <LinearLayout
+        <EditText
+            android:id="@+id/et_rname"
             android:layout_width="match_parent"
-            android:layout_height="14dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:hint="Nome"
+            android:textColorHint="@color/c5"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginBottom="20dp"/>
 
-            <TextView
-                android:id="@+id/textView24"
-                android:layout_width="136dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Repetir senha:"
-                android:textSize="24sp" />
-
-            <EditText
-                android:id="@+id/et_RnovaSenha"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:ems="10"
-                android:inputType="text|textPassword" />
-
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/tv_Plogin"
+        <EditText
+            android:id="@+id/et_rlogin"
             android:layout_width="match_parent"
-            android:layout_height="302dp" />
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:hint="Login"
+            android:textColorHint="@color/c5"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/et_remail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:hint="Email"
+            android:textColorHint="@color/c5"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/et_novaSenha"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Senha"
+            android:textColorHint="@color/c5"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginBottom="20dp"
+            android:inputType="text|textPassword" />
+
+        <EditText
+            android:id="@+id/et_RnovaSenha"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Confirme a senha"
+            android:textColorHint="@color/c5"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginBottom="20dp"
+            android:inputType="text|textPassword" />
 
         <Button
             android:id="@+id/bt_recadastro"
             android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:layout_weight="1"
-            android:text="Cadastrar" />
-
-        <Button
-            android:id="@+id/bt_voltarP"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Voltar" />
+            android:layout_height="50dp"
+            android:padding="0dp"
+            android:text="CADASTRAR"
+            android:textSize="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:backgroundTint="@color/p4"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
