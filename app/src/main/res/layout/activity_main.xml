@@ -19,28 +19,25 @@
             android:layout_height="wrap_content"
             android:src="@drawable/logo"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="80dp"/>
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="101dp" />
+            android:layout_marginVertical="80dp"/>
 
         <EditText
             android:id="@+id/etLogin"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
+            android:layout_height="40dp"
             android:inputType="text"
-            android:text="Login" />
+            android:hint="Login"
+            android:textColorHint="#595959"
+            android:layout_marginBottom="20dp"/>
 
         <EditText
             android:id="@+id/etSenha"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
+            android:layout_height="40dp"
             android:inputType="textPassword"
-            tools:text="Senha" />
+            android:hint="Senha"
+            android:textColorHint="#595959"
+            android:layout_marginBottom="70dp"/>
 
         <Button
             android:id="@+id/btLogin"
