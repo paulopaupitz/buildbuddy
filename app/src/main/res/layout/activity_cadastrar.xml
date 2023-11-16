@@ -15,24 +15,25 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:orientation="horizontal">
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/bt_voltarP"
-                android:layout_width="40dp"
+                android:layout_width="50dp"
                 android:layout_height="match_parent"
-                android:backgroundTint="@color/c1"
-                android:drawableStart="@drawable/round_arrow_back_24"
+                android:background="@drawable/back_button"
+                android:drawableLeft="@drawable/round_arrow_back_24"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
 
             <TextView
+                android:layout_gravity="start"
                 android:id="@+id/textView21"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto_bold"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="10dp"
                 android:text="Cadastro"
                 android:textColor="@color/p4"
                 android:textSize="24dp" />
