@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BuildBuddy</string>
+    <string name="btn_forgot_password"><u>Esqueceu sua senha?</u></string>
 </resources>
