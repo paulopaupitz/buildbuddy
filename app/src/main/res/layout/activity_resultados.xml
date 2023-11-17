@@ -6,474 +6,487 @@
     android:layout_height="match_parent"
     tools:context=".Resultados">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginHorizontal="40dp"
-        android:layout_marginVertical="30dp">
+        android:layout_marginVertical="30dp"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="80dp"
-                android:orientation="horizontal">
-
-                <ImageButton
-                    android:id="@+id/btvoltar"
-                    android:layout_width="50dp"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/round_arrow_back_24"
-                    android:backgroundTint="@color/c1"/>
-
-                <TextView
-                    android:layout_gravity="start"
-                    android:id="@+id/textView21"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/roboto_bold"
-                    android:layout_marginLeft="10dp"
-                    android:text="Resultados"
-                    android:textColor="@color/p4"
-                    android:textSize="24dp" />
-
-            </LinearLayout>
+            <ImageButton
+                android:id="@+id/bt_volta"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/round_arrow_back_24"
+                android:backgroundTint="@color/c1"/>
 
             <TextView
-                android:id="@+id/textView33"
-                android:layout_width="match_parent"
+                android:layout_gravity="start"
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Resultados:"
-                android:textAlignment="center"
-                android:textSize="20sp" />
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginLeft="10dp"
+                android:text="Resultados"
+                android:textColor="@color/p4"
+                android:textSize="24dp" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center">
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/textView30"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Até: R$"
-                    android:textAlignment="center"/>
-
-                <TextView
-                    android:id="@+id/tv_maior"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAlignment="center"/>
-
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/textView34"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="PC:"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView43"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Nível do PC"
-                android:textAlignment="center"
-                android:textSize="16sp"
-                android:textStyle="italic" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView50"
-                    android:layout_width="224dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Nível:"
-                    android:textAlignment="textEnd" />
-
-                <TextView
-                    android:id="@+id/tv_nivel"
-                    android:layout_width="230dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="vertical">
+
+
 
                 <TextView
-                    android:id="@+id/textView60"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:text="Resultados:"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Até: R$"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:id="@+id/tv_maior"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PC:"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nível do PC"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView50"
+                        android:layout_width="224dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Nível:"
+                        android:textAlignment="textEnd" />
+
+                    <TextView
+                        android:id="@+id/tv_nivel"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Valor estimado do computador:"
+                        android:textAlignment="textEnd"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/tv_valor"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Processador:"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text_viewer27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AMD:" />
+
+                    <TextView
+                        android:id="@+id/tv_amd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                    <ImageButton
+                        android:id="@+id/bt_item1"
+                        android:layout_width="7dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text_viewer28"
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Intel:" />
+
+                    <TextView
+                        android:id="@+id/tv_intel"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ImageButton
+                        android:id="@+id/bt_item2"
+                        android:layout_width="14dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Placa Mãe"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView46"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="AMD:" />
+
+                    <TextView
+                        android:id="@+id/tv_amdpm"
+                        android:layout_width="314dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ImageButton
+                        android:id="@+id/bt_item3"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/btn_star_big_on" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="9dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Intel:" />
+
+                    <TextView
+                        android:id="@+id/tv_intelpm"
+                        android:layout_width="288dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ImageButton
+                        android:id="@+id/bt_item4"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/btn_star_big_on" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SSD:"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_ssd"
+                        android:layout_width="371dp"
+                        android:layout_height="match_parent" />
+
+                    <ImageButton
+                        android:id="@+id/bt_item5"
+                        android:layout_width="17dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/btn_star_big_on" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Memória RAM:"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_ram"
+                        android:layout_width="370dp"
+                        android:layout_height="match_parent" />
+
+                    <ImageButton
+                        android:id="@+id/bt_item6"
+                        android:layout_width="92dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/btn_star_big_on" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Placa de vídeo:"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
                     android:layout_weight="1"
-                    android:text="Valor estimado do computador:"
-                    android:textAlignment="textEnd"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text_viewer42"
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="AMD:" />
+
+                    <TextView
+                        android:id="@+id/tv_radeon"
+                        android:layout_width="288dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ImageButton
+                        android:id="@+id/bt_item7"
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text_viewer43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="NVIDIA:" />
+
+                    <TextView
+                        android:id="@+id/tv_nvidia"
+                        android:layout_width="295dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ImageButton
+                        android:id="@+id/bt_item8"
+                        android:layout_width="26dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fonte:"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_fonte"
+                        android:layout_width="421dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ImageButton
+                        android:id="@+id/bt_item9"
+                        android:layout_width="88dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/btn_star_big_on" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Recomendações extras:"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/tv_recomenda1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sem Recomendação Extra" />
+
+                <TextView
+                    android:id="@+id/tv_recomenda2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sem Recomendação Extra" />
+
+                <TextView
+                    android:id="@+id/tv_recomenda3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sem Recomendação Extra" />
+
+                <TextView
+                    android:id="@+id/tv_recomenda4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sem Recomendação Extra" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Observações:"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1 - Valores e recomendações não inserem gabinetes, mouses e teclados por serem peças de gosto pessoal."
                     android:textStyle="italic" />
 
                 <TextView
-                    android:id="@+id/tv_valor"
-                    android:layout_width="100dp"
+                    android:id="@+id/textView49"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/TextView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Processador:"
-                android:textSize="16sp"
-                android:textStyle="bold|italic" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                    android:text="2 - Os computadores foram feitos com base nos requisitos recomendados por cada programa. Não está sendo levado em conta o uso simultâneo de mais de um programa listado "
+                    android:textStyle="italic" />
 
                 <TextView
-                    android:id="@+id/text_viewer27"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/textView56"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="AMD:" />
+                    android:text="3 - O computador não leva em consideração o uso de armazenamento para arquivos pessoais: Documentos, imagens e vídeos. Se você tem um alto uso, recomendamos a compra de um HD extra"
+                    android:textStyle="italic" />
 
                 <TextView
-                    android:id="@+id/tv_amd"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"/>
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4 - É obrigatório o processador e placa mãe serem ou somente AMD ou somente Intel. O mesmo não acontece com a placa de vídeo."
+                    android:textStyle="italic" />
 
-                <ImageButton
-                    android:id="@+id/bt_item1"
-                    android:layout_width="7dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/btn_star_big_on" />
+                <Button
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Voltar" />
+
+                <Button
+                    android:id="@+id/bt_terminar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sair" />
 
             </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="37dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/text_viewer28"
-                    android:layout_width="20dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="Intel:" />
-
-                <TextView
-                    android:id="@+id/tv_intel"
-                    android:layout_width="290dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1" />
-
-                <ImageButton
-                    android:id="@+id/bt_item2"
-                    android:layout_width="14dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/btn_star_big_on" />
-
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/textView42"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Placa Mãe"
-                android:textSize="16sp"
-                android:textStyle="bold|italic" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="38dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView46"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="AMD:" />
-
-                <TextView
-                    android:id="@+id/tv_amdpm"
-                    android:layout_width="314dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1" />
-
-                <ImageButton
-                    android:id="@+id/bt_item3"
-                    android:layout_width="30dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/btn_star_big_on" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="39dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView44"
-                    android:layout_width="9dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="Intel:" />
-
-                <TextView
-                    android:id="@+id/tv_intelpm"
-                    android:layout_width="288dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1" />
-
-                <ImageButton
-                    android:id="@+id/bt_item4"
-                    android:layout_width="4dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/btn_star_big_on" />
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/textView37"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="SSD:"
-                android:textSize="16sp"
-                android:textStyle="bold|italic" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/tv_ssd"
-                    android:layout_width="371dp"
-                    android:layout_height="match_parent" />
-
-                <ImageButton
-                    android:id="@+id/bt_item5"
-                    android:layout_width="17dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/btn_star_big_on" />
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/textView39"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Memória RAM:"
-                android:textSize="16sp"
-                android:textStyle="bold|italic" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="38dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/tv_ram"
-                    android:layout_width="370dp"
-                    android:layout_height="match_parent" />
-
-                <ImageButton
-                    android:id="@+id/bt_item6"
-                    android:layout_width="92dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/btn_star_big_on" />
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/textView41"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Placa de vídeo:"
-                android:textSize="16sp"
-                android:textStyle="bold|italic" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="37dp"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/text_viewer42"
-                    android:layout_width="8dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="AMD:" />
-
-                <TextView
-                    android:id="@+id/tv_radeon"
-                    android:layout_width="288dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1" />
-
-                <ImageButton
-                    android:id="@+id/bt_item7"
-                    android:layout_width="2dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/btn_star_big_on" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/text_viewer43"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="NVIDIA:" />
-
-                <TextView
-                    android:id="@+id/tv_nvidia"
-                    android:layout_width="295dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1" />
-
-                <ImageButton
-                    android:id="@+id/bt_item8"
-                    android:layout_width="26dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/btn_star_big_on" />
-
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/textView52"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Fonte:"
-                android:textSize="16sp"
-                android:textStyle="bold|italic" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="39dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/tv_fonte"
-                    android:layout_width="421dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1" />
-
-                <ImageButton
-                    android:id="@+id/bt_item9"
-                    android:layout_width="88dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/btn_star_big_on" />
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/textView54"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Recomendações extras:"
-                android:textSize="16sp"
-                android:textStyle="bold|italic" />
-
-            <TextView
-                android:id="@+id/tv_recomenda1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Sem Recomendação Extra" />
-
-            <TextView
-                android:id="@+id/tv_recomenda2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Sem Recomendação Extra" />
-
-            <TextView
-                android:id="@+id/tv_recomenda3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Sem Recomendação Extra" />
-
-            <TextView
-                android:id="@+id/tv_recomenda4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Sem Recomendação Extra" />
-
-            <TextView
-                android:id="@+id/textView47"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Observações:"
-                android:textSize="16sp"
-                android:textStyle="bold|italic" />
-
-            <TextView
-                android:id="@+id/textView48"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="1 - Valores e recomendações não inserem gabinetes, mouses e teclados por serem peças de gosto pessoal."
-                android:textStyle="italic" />
-
-            <TextView
-                android:id="@+id/textView49"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="2 - Os computadores foram feitos com base nos requisitos recomendados por cada programa. Não está sendo levado em conta o uso simultâneo de mais de um programa listado "
-                android:textStyle="italic" />
-
-            <TextView
-                android:id="@+id/textView56"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="3 - O computador não leva em consideração o uso de armazenamento para arquivos pessoais: Documentos, imagens e vídeos. Se você tem um alto uso, recomendamos a compra de um HD extra"
-                android:textStyle="italic" />
-
-            <TextView
-                android:id="@+id/textView38"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="4 - É obrigatório o processador e placa mãe serem ou somente AMD ou somente Intel. O mesmo não acontece com a placa de vídeo."
-                android:textStyle="italic" />
-
-            <Button
-                android:id="@+id/bt_terminar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Sair" />
-
-        </LinearLayout>
-    </ScrollView>
+        </ScrollView>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
