@@ -112,20 +112,24 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
 
                     <TextView
                         android:id="@+id/TextView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:textSize="18dp"
                         android:text="Processador:"
-                        android:textSize="16sp"
-                        android:textStyle="bold|italic" />
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:paddingRight="8dp"
+                        android:gravity="center_vertical">
 
                         <TextView
                             android:id="@+id/text_viewer27"
@@ -138,32 +142,43 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
 
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"/>
+
                         <ImageButton
                             android:id="@+id/bt_item1"
                             android:layout_width="36dp"
                             android:layout_height="36dp"
                             android:backgroundTint="@color/c1"
-                            android:src="@drawable/round_star_outline"/>
+                            android:src="@drawable/round_star_outline"
+                            android:layout_gravity="right"/>
 
                     </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="37dp"
-                        android:orientation="horizontal">
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingRight="8dp"
+                        android:gravity="center_vertical">
 
                         <TextView
                             android:id="@+id/text_viewer28"
-                            android:layout_width="20dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:text="Intel:" />
 
                         <TextView
                             android:id="@+id/tv_intel"
-                            android:layout_width="290dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1" />
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"/>
 
                         <ImageButton
                             android:id="@+id/bt_item2"
@@ -173,15 +188,16 @@
                             android:src="@drawable/round_star_outline"/>
 
                     </LinearLayout>
+
                 </LinearLayout>
 
                 <TextView
                     android:id="@+id/textView42"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Placa Mãe"
-                    android:textSize="16sp"
-                    android:textStyle="bold|italic" />
+                    android:fontFamily="@font/roboto_bold"
+                    android:textSize="18dp"
+                    android:text="Placa Mãe" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -239,9 +255,9 @@
                     android:id="@+id/textView37"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="SSD:"
-                    android:textSize="16sp"
-                    android:textStyle="bold|italic" />
+                    android:fontFamily="@font/roboto_bold"
+                    android:textSize="18dp"
+                    android:text="SSD:"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -266,9 +282,9 @@
                     android:id="@+id/textView39"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Memória RAM:"
-                    android:textSize="16sp"
-                    android:textStyle="bold|italic" />
+                    android:fontFamily="@font/roboto_bold"
+                    android:textSize="18dp"
+                    android:text="Memória RAM:" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -292,9 +308,9 @@
                     android:id="@+id/textView41"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Placa de vídeo:"
-                    android:textSize="16sp"
-                    android:textStyle="bold|italic" />
+                    android:fontFamily="@font/roboto_bold"
+                    android:textSize="18dp"
+                    android:text="Placa de vídeo:"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -355,9 +371,9 @@
                     android:id="@+id/textView52"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Fonte:"
-                    android:textSize="16sp"
-                    android:textStyle="bold|italic" />
+                    android:fontFamily="@font/roboto_bold"
+                    android:textSize="18dp"
+                    android:text="Fonte:" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -382,9 +398,9 @@
                     android:id="@+id/textView54"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Recomendações extras:"
-                    android:textSize="16sp"
-                    android:textStyle="bold|italic" />
+                    android:fontFamily="@font/roboto_bold"
+                    android:textSize="18dp"
+                    android:text="Recomendações extras:"/>
 
                 <TextView
                     android:id="@+id/tv_recomenda1"
@@ -414,9 +430,9 @@
                     android:id="@+id/textView47"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Observações:"
-                    android:textSize="16sp"
-                    android:textStyle="bold|italic" />
+                    android:fontFamily="@font/roboto_bold"
+                    android:textSize="18dp"
+                    android:text="Observações:"/>
 
                 <TextView
                     android:id="@+id/textView48"
@@ -445,12 +461,6 @@
                     android:layout_height="wrap_content"
                     android:text="4 - É obrigatório o processador e placa mãe serem ou somente AMD ou somente Intel. O mesmo não acontece com a placa de vídeo."
                     android:textStyle="italic" />
-
-                <Button
-
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Voltar" />
 
                 <Button
                     android:id="@+id/bt_terminar"
