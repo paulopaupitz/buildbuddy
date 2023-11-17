@@ -5,13 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
+import android.widget.*;
 
 public class Esqueci_Senha extends AppCompatActivity {
 
-    Button bt_voltar_es, bt_redefinir_ns;
+    Button bt_redefinir_ns;
+    ImageButton bt_voltar_es;
     EditText et_login_es, et_senha_es, et_rsenha_es;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +18,7 @@ public class Esqueci_Senha extends AppCompatActivity {
         setContentView(R.layout.activity_esqueci_senha);
 
         bt_redefinir_ns = (Button) (findViewById(R.id.bt_redefinir_ns));
-        bt_voltar_es = (Button) (findViewById(R.id.bt_voltar_es));
+        bt_voltar_es = (ImageButton) (findViewById(R.id.bt_voltar_es));
 
         et_login_es = (EditText) (findViewById(R.id.et_login_es));
         et_senha_es = (EditText) (findViewById(R.id.et_senha_es));

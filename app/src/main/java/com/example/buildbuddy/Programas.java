@@ -4,12 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.CheckBox;
+import android.widget.*;
 
 public class Programas extends AppCompatActivity {
 
-    Button bt_back, bt_continuar;
+    Button bt_continuar;
+    ImageButton bt_back;
     private CheckBox
             cb_win10,cb_win11, cb_win, cb_linux, cb_navegadores, cb_players, cb_pdf, cb_streaming,
             cb_office, cb_teamviewer, cb_bi,
@@ -24,7 +24,7 @@ public class Programas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_programas);
 
-        bt_back = (Button) (findViewById(R.id.bt_back));
+        bt_back = (ImageButton) (findViewById(R.id.bt_back));
         bt_continuar = (Button) (findViewById(R.id.bt_continuar));
 
         cb_win10 = (CheckBox) (findViewById(R.id.cb_win10));

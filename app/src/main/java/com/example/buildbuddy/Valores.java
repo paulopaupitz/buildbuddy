@@ -5,14 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.SeekBar;
-import android.widget.TextView;
+import android.widget.*;
 
 public class Valores extends AppCompatActivity {
 
-    Button bt_continue, bt_volta;
+    Button bt_continue;
+    ImageButton bt_volta;
     float maior;
     SeekBar sb_valor;
     TextView tv_valores;
@@ -24,7 +22,7 @@ public class Valores extends AppCompatActivity {
         setContentView(R.layout.activity_valores);
 
         bt_continue = (Button) (findViewById(R.id.bt_continue));
-        bt_volta = (Button) (findViewById(R.id.bt_volta));
+        bt_volta = (ImageButton) (findViewById(R.id.bt_volta));
         sb_valor = (SeekBar) (findViewById(R.id.sb_valor));
         tv_valores = (TextView)(findViewById(R.id.tv_valores));
 

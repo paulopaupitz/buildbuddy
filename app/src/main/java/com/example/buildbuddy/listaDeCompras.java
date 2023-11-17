@@ -18,7 +18,8 @@ import java.util.List;
 
 public class listaDeCompras extends AppCompatActivity {
 
-    Button bt_voltarH, bt_excluirItens;
+    Button bt_excluirItens;
+    ImageButton bt_voltarH;
     List<Itens> listaItens = new ArrayList<>();
 
     @Override
@@ -49,7 +50,7 @@ public class listaDeCompras extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
         recyclerView.setHasFixedSize(true);
 
-        bt_voltarH = (Button) (findViewById(R.id.bt_voltarH));
+        bt_voltarH = (ImageButton) (findViewById(R.id.bt_voltarH));
         bt_voltarH.setOnClickListener(view -> Home());
 
         bt_excluirItens = (Button) (findViewById(R.id.bt_excluirItens));

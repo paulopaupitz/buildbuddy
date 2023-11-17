@@ -14,7 +14,8 @@ import android.widget.Toast;
 
 public class Resultados extends AppCompatActivity {
 
-    Button btvoltar, bt_terminar;
+    Button bt_terminar;
+    ImageButton btvoltar;
     ImageButton bt_item1,bt_item2,bt_item3, bt_item4, bt_item5, bt_item6, bt_item7, bt_item8, bt_item9;
     TextView tv_maior, tv_menor, tv_nivel, tv_amd, tv_intel, tv_ssd, tv_ram, tv_radeon, tv_nvidia,
              tv_amdpm, tv_intelpm, tv_recomenda1, tv_recomenda2, tv_recomenda3, tv_recomenda4,
@@ -29,7 +30,7 @@ public class Resultados extends AppCompatActivity {
 
         DataManager dataManager = new DataManager(this);
 
-        btvoltar = (Button) (findViewById(R.id.btvoltar));
+        btvoltar = (ImageButton) (findViewById(R.id.btvoltar));
         bt_terminar = (Button) (findViewById(R.id.bt_terminar));
         bt_item1 = (ImageButton) (findViewById(R.id.bt_item1));
         bt_item2 = (ImageButton) (findViewById(R.id.bt_item2));

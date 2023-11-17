@@ -5,13 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
+import android.widget.*;
 
 public class Cadastrar extends AppCompatActivity {
 
-    Button bt_voltarL, bt_cadastrar;
+    Button bt_cadastrar;
+
+    ImageButton bt_voltarL;
     EditText et_name, et_login, et_email, et_senha, et_rsenha;
 
     @Override
@@ -21,7 +21,7 @@ public class Cadastrar extends AppCompatActivity {
 
         DataManager dataManager = new DataManager(this);
 
-        bt_voltarL = (Button) (findViewById(R.id.bt_voltarP));
+        bt_voltarL = (ImageButton) (findViewById(R.id.bt_voltarP));
         bt_cadastrar = (Button) (findViewById(R.id.bt_recadastro));
         et_name = (EditText)(findViewById(R.id.et_rname));
         et_login = (EditText)(findViewById(R.id.et_rlogin));

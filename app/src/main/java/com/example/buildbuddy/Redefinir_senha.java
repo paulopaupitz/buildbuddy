@@ -5,13 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
+import android.widget.*;
 
 public class Redefinir_senha extends AppCompatActivity {
 
-    Button bt_voltarL, bt_recadastro;
+    Button bt_recadastro;
+    ImageButton bt_voltarL;
     EditText et_novaSenha, et_RnovaSenha;
 
     @Override
@@ -20,7 +19,7 @@ public class Redefinir_senha extends AppCompatActivity {
         setContentView(R.layout.activity_redefinir_senha);
 
         bt_recadastro = (Button) (findViewById(R.id.bt_recadastro));
-        bt_voltarL = (Button) (findViewById(R.id.bt_voltarL));
+        bt_voltarL = (ImageButton) (findViewById(R.id.bt_voltarL));
 
         et_novaSenha = (EditText) (findViewById(R.id.et_novaSenha));
         et_RnovaSenha = (EditText) (findViewById(R.id.et_RnovaSenha));

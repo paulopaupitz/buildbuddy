@@ -8,12 +8,14 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class Perfil extends AppCompatActivity {
 
-    Button bt_redefinir, bt_editar, bt_voltar, bt_excluir;
+    Button bt_redefinir, bt_editar, bt_excluir;
+    ImageButton bt_voltar;
     TextView tv_perfil_nome, tv_perfil_login, tv_perfil_email, tv_plogin;
 
     @Override
@@ -27,7 +29,7 @@ public class Perfil extends AppCompatActivity {
 
         bt_editar = (Button) (findViewById(R.id.bt_editar));
         bt_redefinir = (Button) (findViewById(R.id.bt_redefinir));
-        bt_voltar = (Button) (findViewById(R.id.bt_voltar));
+        bt_voltar = (ImageButton) (findViewById(R.id.bt_voltar));
         bt_excluir = (Button) (findViewById(R.id.bt_excluir));
 
         tv_perfil_login = (TextView)(findViewById(R.id.tv_perfil_login));
