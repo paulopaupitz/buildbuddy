@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:orientation="horizontal"
-                android:layout_marginBottom="80dp">
+                android:layout_marginBottom="20dp">
 
                 <ImageButton
                     android:id="@+id/bt_back"
@@ -48,15 +48,16 @@
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Quais os programas você irá utilizar no computador?"
+                android:text="Marque os programas que você deseja rodar no seu computador."
                 android:textAlignment="center"
-                android:textSize="24sp" />
+                android:textSize="18dp" />
 
-            <TextView
-                android:id="@+id/textView18"
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="______________________________________________________________" />
+                android:layout_marginVertical="16dp"
+                android:layout_height="2dp"
+                android:background="@color/p4"
+                android:focusable="false" />
 
             <TextView
                 android:id="@+id/textView19"
@@ -112,11 +113,12 @@
                 android:layout_height="wrap_content"
                 android:text="Aplicativo de Streaming (Netflix, Disney+, HBO Max)" />
 
-            <TextView
-                android:id="@+id/textView20"
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="______________________________________________________________" />
+                android:layout_marginVertical="16dp"
+                android:layout_height="2dp"
+                android:background="@color/p4"
+                android:focusable="false" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -148,11 +150,12 @@
                 android:layout_height="wrap_content"
                 android:text="Programação" />
 
-            <TextView
-                android:id="@+id/textView6"
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="______________________________________________________________" />
+                android:layout_marginVertical="16dp"
+                android:layout_height="2dp"
+                android:background="@color/p4"
+                android:focusable="false" />
 
             <CheckBox
                 android:id="@+id/cb_ide"
@@ -178,11 +181,12 @@
                 android:layout_height="wrap_content"
                 android:text="Games" />
 
-            <TextView
-                android:id="@+id/textView9"
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="______________________________________________________________" />
+                android:layout_marginVertical="16dp"
+                android:layout_height="2dp"
+                android:background="@color/p4"
+                android:focusable="false" />
 
             <CheckBox
                 android:id="@+id/cb_cs"
@@ -250,11 +254,12 @@
                 android:layout_height="wrap_content"
                 android:text="Desenvolvimento" />
 
-            <TextView
-                android:id="@+id/textView11"
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="______________________________________________________________" />
+                android:layout_marginVertical="16dp"
+                android:layout_height="2dp"
+                android:background="@color/p4"
+                android:focusable="false" />
 
             <CheckBox
                 android:id="@+id/cb_autocad"
@@ -286,11 +291,12 @@
                 android:layout_height="wrap_content"
                 android:text="Audio Visual" />
 
-            <TextView
-                android:id="@+id/textView13"
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="______________________________________________________________" />
+                android:layout_marginVertical="16dp"
+                android:layout_height="2dp"
+                android:background="@color/p4"
+                android:focusable="false" />
 
             <CheckBox
                 android:id="@+id/cb_premiere"
@@ -334,12 +340,13 @@
                 android:layout_height="wrap_content"
                 android:text="Modelagem 3D" />
 
-            <TextView
-                android:id="@+id/textView32"
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="______________________________________________________________" />
-
+                android:layout_marginVertical="16dp"
+                android:layout_height="2dp"
+                android:background="@color/p4"
+                android:focusable="false" />
+            
             <CheckBox
                 android:id="@+id/cb_blender"
                 android:layout_width="match_parent"
