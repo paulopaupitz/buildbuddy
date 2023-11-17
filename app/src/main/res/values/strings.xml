@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">BuildBuddy</string>
     <string name="btn_forgot_password"><u>Esqueceu sua senha?</u></string>
+    <string name="btn_del_acc"><u>Excluir minha conta</u></string>
+    <string name="btn_change_pw"><u>Redefinir minha senha</u></string>
 </resources>
