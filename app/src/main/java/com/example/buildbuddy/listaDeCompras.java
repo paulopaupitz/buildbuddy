@@ -68,7 +68,7 @@ public class listaDeCompras extends AppCompatActivity {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Confirmação");
-        builder.setMessage("Tem certeza que deseja excluir o perfil?");
+        builder.setMessage("Tem certeza que deseja apagar a lista de compras?");
 
         builder.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
             @Override
