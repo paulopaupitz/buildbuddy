@@ -33,7 +33,6 @@ public class Perfil extends AppCompatActivity {
         tv_perfil_login = (TextView)(findViewById(R.id.tv_perfil_login));
         tv_perfil_nome = (TextView)(findViewById(R.id.tv_perfil_nome));
         tv_perfil_email = (TextView)(findViewById(R.id.tv_perfil_email));
-        tv_plogin = (TextView)(findViewById(R.id.tv_Plogin));
 
         Cursor cursor = dataManager.consultarDados(username);
 
