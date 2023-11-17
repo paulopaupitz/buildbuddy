@@ -135,7 +135,7 @@
                             android:id="@+id/text_viewer27"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="AMD:" />
+                            android:text="AMD: " />
 
                         <TextView
                             android:id="@+id/tv_amd"
@@ -168,7 +168,7 @@
                             android:id="@+id/text_viewer28"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Intel:" />
+                            android:text="Intel: " />
 
                         <TextView
                             android:id="@+id/tv_intel"
