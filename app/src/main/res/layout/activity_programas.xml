@@ -63,7 +63,10 @@
                 android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sistema Operacional:" />
+                android:text="Sistema Operacional:"
+                android:textSize="16dp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/p4"/>
 
             <CheckBox
                 android:id="@+id/cb_win10"
@@ -124,7 +127,10 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Escritório" />
+                android:text="Escritório"
+                android:textSize="16dp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/p4"/>
 
             <CheckBox
                 android:id="@+id/cb_office"
@@ -144,18 +150,21 @@
                 android:layout_height="wrap_content"
                 android:text="Power BI" />
 
-            <TextView
-                android:id="@+id/textView7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Programação" />
-
             <View
                 android:layout_width="match_parent"
                 android:layout_marginVertical="16dp"
                 android:layout_height="2dp"
                 android:background="@color/p4"
                 android:focusable="false" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Programação"
+                android:textSize="16dp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/p4"/>
 
             <CheckBox
                 android:id="@+id/cb_ide"
@@ -175,18 +184,21 @@
                 android:layout_height="wrap_content"
                 android:text="Android Studio" />
 
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Games" />
-
             <View
                 android:layout_width="match_parent"
                 android:layout_marginVertical="16dp"
                 android:layout_height="2dp"
                 android:background="@color/p4"
                 android:focusable="false" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Games"
+                android:textSize="16dp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/p4"/>
 
             <CheckBox
                 android:id="@+id/cb_cs"
@@ -248,11 +260,6 @@
                 android:layout_height="wrap_content"
                 android:text="Watch Dogs: Legion" />
 
-            <TextView
-                android:id="@+id/textView10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Desenvolvimento" />
 
             <View
                 android:layout_width="match_parent"
@@ -260,6 +267,15 @@
                 android:layout_height="2dp"
                 android:background="@color/p4"
                 android:focusable="false" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desenvolvimento"
+                android:textSize="16dp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/p4"/>
 
             <CheckBox
                 android:id="@+id/cb_autocad"
@@ -285,11 +301,6 @@
                 android:layout_height="wrap_content"
                 android:text="Autodesk Inventor" />
 
-            <TextView
-                android:id="@+id/textView12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Audio Visual" />
 
             <View
                 android:layout_width="match_parent"
@@ -297,6 +308,15 @@
                 android:layout_height="2dp"
                 android:background="@color/p4"
                 android:focusable="false" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Audio Visual"
+                android:textSize="16dp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/p4"/>
 
             <CheckBox
                 android:id="@+id/cb_premiere"
@@ -334,19 +354,23 @@
                 android:layout_height="wrap_content"
                 android:text="Corel Draw" />
 
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Modelagem 3D" />
-
             <View
                 android:layout_width="match_parent"
                 android:layout_marginVertical="16dp"
                 android:layout_height="2dp"
                 android:background="@color/p4"
                 android:focusable="false" />
-            
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modelagem 3D"
+                android:textSize="16dp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/p4"/>
+
+
             <CheckBox
                 android:id="@+id/cb_blender"
                 android:layout_width="match_parent"
