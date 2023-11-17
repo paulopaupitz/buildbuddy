@@ -30,9 +30,6 @@
             android:name=".Recadastrar"
             android:exported="false" />
         <activity
-            android:name=".Lista_de_compras"
-            android:exported="false" />
-        <activity
             android:name=".Redefinir_senha"
             android:exported="false" />
         <activity
