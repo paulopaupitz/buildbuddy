@@ -122,6 +122,7 @@
                         android:fontFamily="@font/roboto_bold"
                         android:textSize="18dp"
                         android:text="Processador:"
+                        android:textColor="@color/p4"
                         />
 
                     <LinearLayout
@@ -197,7 +198,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_bold"
                     android:textSize="18dp"
-                    android:text="Placa Mãe" />
+                    android:text="Placa Mãe"
+                    android:textColor="@color/p4"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -257,7 +259,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_bold"
                     android:textSize="18dp"
-                    android:text="SSD:"/>
+                    android:text="SSD:"
+                    android:textColor="@color/p4"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -284,7 +287,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_bold"
                     android:textSize="18dp"
-                    android:text="Memória RAM:" />
+                    android:text="Memória RAM:"
+                    android:textColor="@color/p4"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -310,7 +314,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_bold"
                     android:textSize="18dp"
-                    android:text="Placa de vídeo:"/>
+                    android:text="Placa de vídeo:"
+                    android:textColor="@color/p4"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -373,7 +378,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_bold"
                     android:textSize="18dp"
-                    android:text="Fonte:" />
+                    android:text="Fonte:"
+                    android:textColor="@color/p4"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -400,7 +406,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_bold"
                     android:textSize="18dp"
-                    android:text="Recomendações extras:"/>
+                    android:text="Recomendações extras:"
+                    android:textColor="@color/p4"/>
 
                 <TextView
                     android:id="@+id/tv_recomenda1"
@@ -432,7 +439,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_bold"
                     android:textSize="18dp"
-                    android:text="Observações:"/>
+                    android:text="Observações:"
+                    android:textColor="@color/p4"/>
 
                 <TextView
                     android:id="@+id/textView48"
