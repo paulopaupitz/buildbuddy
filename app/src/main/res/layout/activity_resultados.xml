@@ -109,64 +109,70 @@
                         android:fontFamily="@font/roboto_bold"/>
                 </LinearLayout>
 
-                <TextView
-                    android:id="@+id/TextView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Processador:"
-                    android:textSize="16sp"
-                    android:textStyle="bold|italic" />
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/text_viewer27"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/TextView"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="AMD:" />
+                        android:text="Processador:"
+                        android:textSize="16sp"
+                        android:textStyle="bold|italic" />
 
-                    <TextView
-                        android:id="@+id/tv_amd"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
-                    <ImageButton
-                        android:id="@+id/bt_item1"
-                        android:layout_width="7dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        app:srcCompat="@android:drawable/btn_star_big_on" />
+                        <TextView
+                            android:id="@+id/text_viewer27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AMD:" />
 
-                </LinearLayout>
+                        <TextView
+                            android:id="@+id/tv_amd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="37dp"
-                    android:orientation="horizontal">
+                        <ImageButton
+                            android:id="@+id/bt_item1"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/c1"
+                            android:src="@drawable/round_star_outline"/>
 
-                    <TextView
-                        android:id="@+id/text_viewer28"
-                        android:layout_width="20dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:text="Intel:" />
+                    </LinearLayout>
 
-                    <TextView
-                        android:id="@+id/tv_intel"
-                        android:layout_width="290dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="37dp"
+                        android:orientation="horizontal">
 
-                    <ImageButton
-                        android:id="@+id/bt_item2"
-                        android:layout_width="14dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        app:srcCompat="@android:drawable/btn_star_big_on" />
+                        <TextView
+                            android:id="@+id/text_viewer28"
+                            android:layout_width="20dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="Intel:" />
 
+                        <TextView
+                            android:id="@+id/tv_intel"
+                            android:layout_width="290dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/bt_item2"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/c1"
+                            android:src="@drawable/round_star_outline"/>
+
+                    </LinearLayout>
                 </LinearLayout>
 
                 <TextView
@@ -197,10 +203,10 @@
 
                     <ImageButton
                         android:id="@+id/bt_item3"
-                        android:layout_width="30dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        app:srcCompat="@android:drawable/btn_star_big_on" />
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:backgroundTint="@color/c1"
+                        android:src="@drawable/round_star_outline"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -223,10 +229,10 @@
 
                     <ImageButton
                         android:id="@+id/bt_item4"
-                        android:layout_width="4dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        app:srcCompat="@android:drawable/btn_star_big_on" />
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:backgroundTint="@color/c1"
+                        android:src="@drawable/round_star_outline"/>
                 </LinearLayout>
 
                 <TextView
@@ -249,10 +255,11 @@
 
                     <ImageButton
                         android:id="@+id/bt_item5"
-                        android:layout_width="17dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        app:srcCompat="@android:drawable/btn_star_big_on" />
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:backgroundTint="@color/c1"
+                        android:src="@drawable/round_star_outline"/>
+
                 </LinearLayout>
 
                 <TextView
@@ -275,10 +282,10 @@
 
                     <ImageButton
                         android:id="@+id/bt_item6"
-                        android:layout_width="92dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        app:srcCompat="@android:drawable/btn_star_big_on" />
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:backgroundTint="@color/c1"
+                        android:src="@drawable/round_star_outline"/>
                 </LinearLayout>
 
                 <TextView
@@ -310,10 +317,10 @@
 
                     <ImageButton
                         android:id="@+id/bt_item7"
-                        android:layout_width="2dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        app:srcCompat="@android:drawable/btn_star_big_on" />
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:backgroundTint="@color/c1"
+                        android:src="@drawable/round_star_outline"/>
 
                 </LinearLayout>
 
@@ -337,10 +344,10 @@
 
                     <ImageButton
                         android:id="@+id/bt_item8"
-                        android:layout_width="26dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        app:srcCompat="@android:drawable/btn_star_big_on" />
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:backgroundTint="@color/c1"
+                        android:src="@drawable/round_star_outline"/>
 
                 </LinearLayout>
 
@@ -365,10 +372,10 @@
 
                     <ImageButton
                         android:id="@+id/bt_item9"
-                        android:layout_width="88dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        app:srcCompat="@android:drawable/btn_star_big_on" />
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:backgroundTint="@color/c1"
+                        android:src="@drawable/round_star_outline"/>
                 </LinearLayout>
 
                 <TextView
