@@ -17,7 +17,7 @@ public class Resultados extends AppCompatActivity {
     Button bt_terminar;
     ImageButton btvoltar;
     ImageButton bt_item1,bt_item2,bt_item3, bt_item4, bt_item5, bt_item6, bt_item7, bt_item8, bt_item9;
-    TextView tv_maior, tv_menor, tv_nivel, tv_amd, tv_intel, tv_ssd, tv_ram, tv_radeon, tv_nvidia,
+    TextView tv_nivel, tv_amd, tv_intel, tv_ssd, tv_ram, tv_radeon, tv_nvidia,
              tv_amdpm, tv_intelpm, tv_recomenda1, tv_recomenda2, tv_recomenda3, tv_recomenda4,
              tv_fonte, tv_valor;
 
@@ -42,8 +42,6 @@ public class Resultados extends AppCompatActivity {
         bt_item8 = (ImageButton) (findViewById(R.id.bt_item8));
         bt_item9 = (ImageButton) (findViewById(R.id.bt_item9));
 
-
-        tv_maior = (TextView) (findViewById(R.id.tv_maior));
         tv_nivel = (TextView) (findViewById(R.id.tv_nivel));
         tv_amd = (TextView) (findViewById(R.id.tv_amd));
         tv_intel = (TextView) (findViewById(R.id.tv_intel));
@@ -142,8 +140,6 @@ public class Resultados extends AppCompatActivity {
         tv_valor.setText(String.valueOf(Preco));
         tv_ssd.setText(String.valueOf(HD+ "GB de armazenamento interno (Preferência a tecnologia M2-NVME)"));
         tv_ram.setText(String.valueOf( RAM+ "GB de Memória RAM"));
-
-        tv_maior.setText(String.valueOf(Maior));
 
         String Label1 = ("Processador AMD " + tv_amd.getText().toString());
         String Label2 = ("Processador Intel " + tv_intel.getText().toString());
