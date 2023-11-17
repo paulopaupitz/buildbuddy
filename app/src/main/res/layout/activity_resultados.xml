@@ -42,7 +42,7 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingTop="20dp">
+            android:layout_marginVertical="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -129,19 +129,23 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:paddingRight="8dp"
+                        android:paddingHorizontal="8dp"
                         android:gravity="center_vertical">
 
                         <TextView
                             android:id="@+id/text_viewer27"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_regular"
+                            android:textSize="15dp"
                             android:text="AMD: " />
 
                         <TextView
                             android:id="@+id/tv_amd"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:fontFamily="@font/roboto_regular"/>
 
                         <Space
                             android:layout_width="match_parent"
@@ -162,19 +166,23 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:paddingRight="8dp"
+                        android:paddingHorizontal="8dp"
                         android:gravity="center_vertical">
 
                         <TextView
                             android:id="@+id/text_viewer28"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Intel: " />
+                            android:text="Intel: "
+                            android:fontFamily="@font/roboto_regular"
+                            android:textSize="15dp"/>
 
                         <TextView
                             android:id="@+id/tv_intel"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_regular"
+                            android:textSize="15dp"/>
 
                         <Space
                             android:layout_width="match_parent"
@@ -192,69 +200,95 @@
 
                 </LinearLayout>
 
-                <TextView
-                    android:id="@+id/textView42"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/roboto_bold"
-                    android:textSize="18dp"
-                    android:text="Placa Mãe"
-                    android:textColor="@color/p4"/>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="38dp"
-                    android:orientation="horizontal">
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
 
                     <TextView
-                        android:id="@+id/textView46"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:text="AMD:" />
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:textSize="18dp"
+                        android:text="Placa Mãe:"
+                        android:textColor="@color/p4"
+                        />
 
-                    <TextView
-                        android:id="@+id/tv_amdpm"
-                        android:layout_width="314dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="8dp"
+                        android:gravity="center_vertical">
 
-                    <ImageButton
-                        android:id="@+id/bt_item3"
-                        android:layout_width="36dp"
-                        android:layout_height="36dp"
-                        android:backgroundTint="@color/c1"
-                        android:src="@drawable/round_star_outline"/>
-                </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_regular"
+                            android:textSize="15dp"
+                            android:text="AMD: " />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="39dp"
-                    android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/tv_amdpm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:fontFamily="@font/roboto_regular"/>
 
-                    <TextView
-                        android:id="@+id/textView44"
-                        android:layout_width="9dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:text="Intel:" />
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"/>
 
-                    <TextView
-                        android:id="@+id/tv_intelpm"
-                        android:layout_width="288dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1" />
+                        <ImageButton
+                            android:id="@+id/bt_item3"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/c1"
+                            android:src="@drawable/round_star_outline"
+                            android:layout_gravity="right"/>
 
-                    <ImageButton
-                        android:id="@+id/bt_item4"
-                        android:layout_width="36dp"
-                        android:layout_height="36dp"
-                        android:backgroundTint="@color/c1"
-                        android:src="@drawable/round_star_outline"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="8dp"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Intel: "
+                            android:fontFamily="@font/roboto_regular"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:id="@+id/tv_intelpm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_regular"
+                            android:textSize="15dp"/>
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"/>
+
+                        <ImageButton
+                            android:id="@+id/bt_item4"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/c1"
+                            android:src="@drawable/round_star_outline"/>
+
+                    </LinearLayout>
+
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView37"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_bold"
@@ -264,13 +298,23 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:orientation="horizontal">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="8dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="20dp">
 
                     <TextView
                         android:id="@+id/tv_ssd"
-                        android:layout_width="371dp"
-                        android:layout_height="match_parent" />
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textSize="15dp"/>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
 
                     <ImageButton
                         android:id="@+id/bt_item5"
@@ -292,13 +336,23 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="38dp"
-                    android:orientation="horizontal">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="8dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="20dp">
 
                     <TextView
                         android:id="@+id/tv_ram"
-                        android:layout_width="370dp"
-                        android:layout_height="match_parent" />
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textSize="15dp"/>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
 
                     <ImageButton
                         android:id="@+id/bt_item6"
@@ -308,67 +362,92 @@
                         android:src="@drawable/round_star_outline"/>
                 </LinearLayout>
 
-                <TextView
-                    android:id="@+id/textView41"
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/roboto_bold"
-                    android:textSize="18dp"
-                    android:text="Placa de vídeo:"
-                    android:textColor="@color/p4"/>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="37dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
 
                     <TextView
-                        android:id="@+id/text_viewer42"
-                        android:layout_width="8dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:text="AMD:" />
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:textSize="18dp"
+                        android:text="Placa de Vídeo:"
+                        android:textColor="@color/p4"
+                        />
 
-                    <TextView
-                        android:id="@+id/tv_radeon"
-                        android:layout_width="288dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="8dp"
+                        android:gravity="center_vertical">
 
-                    <ImageButton
-                        android:id="@+id/bt_item7"
-                        android:layout_width="36dp"
-                        android:layout_height="36dp"
-                        android:backgroundTint="@color/c1"
-                        android:src="@drawable/round_star_outline"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_regular"
+                            android:textSize="15dp"
+                            android:text="AMD: " />
 
-                </LinearLayout>
+                        <TextView
+                            android:id="@+id/tv_radeon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:fontFamily="@font/roboto_regular"/>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:orientation="horizontal">
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"/>
 
-                    <TextView
-                        android:id="@+id/text_viewer43"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:text="NVIDIA:" />
+                        <ImageButton
+                            android:id="@+id/bt_item7"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/c1"
+                            android:src="@drawable/round_star_outline"
+                            android:layout_gravity="right"/>
 
-                    <TextView
-                        android:id="@+id/tv_nvidia"
-                        android:layout_width="295dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1" />
+                    </LinearLayout>
 
-                    <ImageButton
-                        android:id="@+id/bt_item8"
-                        android:layout_width="36dp"
-                        android:layout_height="36dp"
-                        android:backgroundTint="@color/c1"
-                        android:src="@drawable/round_star_outline"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="8dp"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="NVIDIA: "
+                            android:fontFamily="@font/roboto_regular"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:id="@+id/tv_nvidia"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_regular"
+                            android:textSize="15dp"/>
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"/>
+
+                        <ImageButton
+                            android:id="@+id/bt_item8"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/c1"
+                            android:src="@drawable/round_star_outline"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -383,14 +462,23 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="39dp"
-                    android:orientation="horizontal">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="8dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="20dp">
 
                     <TextView
                         android:id="@+id/tv_fonte"
-                        android:layout_width="421dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1" />
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textSize="15dp"/>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
 
                     <ImageButton
                         android:id="@+id/bt_item9"
@@ -409,29 +497,52 @@
                     android:text="Recomendações extras:"
                     android:textColor="@color/p4"/>
 
-                <TextView
-                    android:id="@+id/tv_recomenda1"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Sem Recomendação Extra" />
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/tv_recomenda2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Sem Recomendação Extra" />
+                    <TextView
+                        android:id="@+id/tv_recomenda1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:text="Sem Recomendação Extra"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textSize="15dp"/>
 
-                <TextView
-                    android:id="@+id/tv_recomenda3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Sem Recomendação Extra" />
+                    <TextView
+                        android:id="@+id/tv_recomenda2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:text="Sem Recomendação Extra"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textSize="15dp"/>
 
-                <TextView
-                    android:id="@+id/tv_recomenda4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Sem Recomendação Extra" />
+                    <TextView
+                        android:id="@+id/tv_recomenda3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:text="Sem Recomendação Extra"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textSize="15dp"/>
+
+                    <TextView
+                        android:id="@+id/tv_recomenda4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:text="Sem Recomendação Extra"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textSize="15dp"/>
+
+                </LinearLayout>
+
 
                 <TextView
                     android:id="@+id/textView47"
@@ -440,41 +551,60 @@
                     android:fontFamily="@font/roboto_bold"
                     android:textSize="18dp"
                     android:text="Observações:"
-                    android:textColor="@color/p4"/>
+                    android:textColor="@color/p4"
+                    android:layout_marginBottom="10dp"/>
 
                 <TextView
                     android:id="@+id/textView48"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingHorizontal="8dp"
                     android:text="1 - Valores e recomendações não inserem gabinetes, mouses e teclados por serem peças de gosto pessoal."
-                    android:textStyle="italic" />
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textSize="15dp"/>
 
                 <TextView
                     android:id="@+id/textView49"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingHorizontal="8dp"
                     android:text="2 - Os computadores foram feitos com base nos requisitos recomendados por cada programa. Não está sendo levado em conta o uso simultâneo de mais de um programa listado "
-                    android:textStyle="italic" />
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textSize="15dp"/>
 
                 <TextView
                     android:id="@+id/textView56"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingHorizontal="8dp"
                     android:text="3 - O computador não leva em consideração o uso de armazenamento para arquivos pessoais: Documentos, imagens e vídeos. Se você tem um alto uso, recomendamos a compra de um HD extra"
-                    android:textStyle="italic" />
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textSize="15dp"/>
 
                 <TextView
                     android:id="@+id/textView38"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingHorizontal="8dp"
                     android:text="4 - É obrigatório o processador e placa mãe serem ou somente AMD ou somente Intel. O mesmo não acontece com a placa de vídeo."
-                    android:textStyle="italic" />
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textSize="15dp"/>
 
                 <Button
                     android:id="@+id/bt_terminar"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Sair" />
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:padding="0dp"
+                    android:text="Fechar"
+                    android:textAllCaps="true"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:backgroundTint="@color/p4"/>
 
             </LinearLayout>
         </ScrollView>
