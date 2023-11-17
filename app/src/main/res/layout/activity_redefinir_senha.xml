@@ -7,85 +7,70 @@
     tools:context=".Redefinir_senha">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
-
-        <TextView
-            android:id="@+id/textView21"
-            android:layout_width="match_parent"
-            android:layout_height="45dp"
-            android:text="Redefinir Senha"
-            android:textAlignment="center"
-            android:textSize="24sp" />
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="30dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="80dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_voltarL"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/back_button"
+                android:drawableLeft="@drawable/round_arrow_back_24"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
 
             <TextView
-                android:id="@+id/textView24"
-                android:layout_width="134dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Senha:"
-                android:textSize="24sp" />
-
-            <EditText
-                android:id="@+id/et_novaSenha"
+                android:layout_gravity="start"
+                android:id="@+id/textView21"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:ems="10"
-                android:inputType="text|textPassword" />
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginLeft="10dp"
+                android:text="Redefinir minha senha"
+                android:textColor="@color/p4"
+                android:textSize="24dp" />
 
         </LinearLayout>
 
-        <LinearLayout
+        <EditText
+            android:id="@+id/et_novaSenha"
             android:layout_width="match_parent"
-            android:layout_height="14dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:layout_height="50dp"
+            android:hint="Nova senha"
+            android:textColorHint="@color/c5"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginBottom="20dp"
+            android:inputType="text|textPassword"/>
 
-            <TextView
-                android:id="@+id/textView24"
-                android:layout_width="136dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Repetir senha:"
-                android:textSize="24sp" />
-
-            <EditText
-                android:id="@+id/et_RnovaSenha"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:ems="10"
-                android:inputType="text|textPassword" />
-
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/tv_Plogin"
+        <EditText
+            android:id="@+id/et_RnovaSenha"
             android:layout_width="match_parent"
-            android:layout_height="464dp" />
+            android:layout_height="50dp"
+            android:hint="Confirmar nova senha"
+            android:textColorHint="@color/c5"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginBottom="240dp"
+            android:inputType="text|textPassword"/>
 
         <Button
             android:id="@+id/bt_recadastro"
             android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:layout_weight="1"
-            android:text="Recadastrar" />
-
-        <Button
-            android:id="@+id/bt_voltarL"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Voltar" />
+            android:layout_height="50dp"
+            android:padding="0dp"
+            android:text="Salvar Alterações"
+            android:textAllCaps="true"
+            android:textSize="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:backgroundTint="@color/p4"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
