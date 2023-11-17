@@ -77,24 +77,36 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="16dp">
 
                     <TextView
                         android:id="@+id/textView60"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Valor estimado do computador:"
-                        android:textAlignment="textEnd"
-                        android:textStyle="italic" />
+                        android:text="Valor Estimado: "
+                        android:textSize="16dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/textView61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$"
+                        android:textSize="16dp"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/roboto_bold"/>
 
                     <TextView
                         android:id="@+id/tv_valor"
-                        android:layout_width="100dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textSize="16dp"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/roboto_bold"/>
                 </LinearLayout>
 
                 <TextView
