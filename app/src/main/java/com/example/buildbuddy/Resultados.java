@@ -158,6 +158,7 @@ public class Resultados extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Itens item = new Itens(username, Label1);
+                bt_item1.setSelected(true);
 
                 long resultado = dataManager.inserirItem(item);
                 if(resultado != -1){
@@ -172,6 +173,7 @@ public class Resultados extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Itens item = new Itens(username, Label2);
+                bt_item2.setSelected(true);
 
                 long resultado = dataManager.inserirItem(item);
                 if(resultado != -1){
@@ -186,6 +188,7 @@ public class Resultados extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Itens item = new Itens(username, Label3);
+                bt_item3.setSelected(true);
 
                 long resultado = dataManager.inserirItem(item);
                 if(resultado != -1){
@@ -200,6 +203,7 @@ public class Resultados extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Itens item = new Itens(username, Label4);
+                bt_item4.setSelected(true);
 
                 long resultado = dataManager.inserirItem(item);
                 if(resultado != -1){
@@ -214,6 +218,7 @@ public class Resultados extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Itens item = new Itens(username, Label5);
+                bt_item5.setSelected(true);
 
                 long resultado = dataManager.inserirItem(item);
                 if(resultado != -1){
@@ -228,6 +233,7 @@ public class Resultados extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Itens item = new Itens(username, Label6);
+                bt_item6.setSelected(true);
 
                 long resultado = dataManager.inserirItem(item);
                 if(resultado != -1){
@@ -242,6 +248,7 @@ public class Resultados extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Itens item = new Itens(username, Label7);
+                bt_item7.setSelected(true);
 
                 long resultado = dataManager.inserirItem(item);
                 if(resultado != -1){
@@ -256,6 +263,7 @@ public class Resultados extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Itens item = new Itens(username, Label8);
+                bt_item8.setSelected(true);
 
                 long resultado = dataManager.inserirItem(item);
                 if(resultado != -1){
@@ -270,6 +278,7 @@ public class Resultados extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Itens item = new Itens(username, Label9);
+                bt_item9.setSelected(true);
 
                 long resultado = dataManager.inserirItem(item);
                 if(resultado != -1){

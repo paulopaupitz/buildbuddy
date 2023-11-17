@@ -157,8 +157,7 @@
                             android:layout_width="36dp"
                             android:layout_height="36dp"
                             android:backgroundTint="@color/c1"
-                            android:src="@drawable/round_star_outline"
-                            android:layout_gravity="right"/>
+                            android:src="@drawable/star_button"/>
 
                     </LinearLayout>
 
@@ -194,7 +193,7 @@
                             android:layout_width="36dp"
                             android:layout_height="36dp"
                             android:backgroundTint="@color/c1"
-                            android:src="@drawable/round_star_outline"/>
+                            android:src="@drawable/star_button"/>
 
                     </LinearLayout>
 
@@ -246,8 +245,7 @@
                             android:layout_width="36dp"
                             android:layout_height="36dp"
                             android:backgroundTint="@color/c1"
-                            android:src="@drawable/round_star_outline"
-                            android:layout_gravity="right"/>
+                            android:src="@drawable/star_button"/>
 
                     </LinearLayout>
 
@@ -282,7 +280,7 @@
                             android:layout_width="36dp"
                             android:layout_height="36dp"
                             android:backgroundTint="@color/c1"
-                            android:src="@drawable/round_star_outline"/>
+                            android:src="@drawable/star_button"/>
 
                     </LinearLayout>
 
@@ -321,7 +319,7 @@
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:backgroundTint="@color/c1"
-                        android:src="@drawable/round_star_outline"/>
+                        android:src="@drawable/star_button"/>
 
                 </LinearLayout>
 
@@ -359,7 +357,7 @@
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:backgroundTint="@color/c1"
-                        android:src="@drawable/round_star_outline"/>
+                        android:src="@drawable/star_button"/>
                 </LinearLayout>
 
 
@@ -409,8 +407,7 @@
                             android:layout_width="36dp"
                             android:layout_height="36dp"
                             android:backgroundTint="@color/c1"
-                            android:src="@drawable/round_star_outline"
-                            android:layout_gravity="right"/>
+                            android:src="@drawable/star_button"/>
 
                     </LinearLayout>
 
@@ -445,7 +442,7 @@
                             android:layout_width="36dp"
                             android:layout_height="36dp"
                             android:backgroundTint="@color/c1"
-                            android:src="@drawable/round_star_outline"/>
+                            android:src="@drawable/star_button"/>
 
                     </LinearLayout>
 
@@ -485,7 +482,7 @@
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:backgroundTint="@color/c1"
-                        android:src="@drawable/round_star_outline"/>
+                        android:src="@drawable/star_button"/>
                 </LinearLayout>
 
                 <TextView
