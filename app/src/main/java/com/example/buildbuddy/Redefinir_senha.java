@@ -59,7 +59,7 @@ public class Redefinir_senha extends AppCompatActivity {
         Intent intent = getIntent();
         String username = intent.getStringExtra("username");
 
-        Intent voltar = new Intent(this, MainActivity.class);
+        Intent voltar = new Intent(this, Perfil.class);
         voltar.putExtra("username", username);
         startActivity (voltar);
     }
