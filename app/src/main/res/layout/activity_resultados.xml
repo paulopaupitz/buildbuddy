@@ -396,7 +396,6 @@
                             android:layout_height="wrap_content"
                             android:textSize="15dp"
                             android:singleLine="false"
-                            android:lines="2"
                             android:fontFamily="@font/roboto_regular"/>
 
                         <Space
@@ -433,7 +432,6 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_regular"
                             android:singleLine="false"
-                            android:lines="2"
                             android:textSize="15dp"/>
 
                         <Space
