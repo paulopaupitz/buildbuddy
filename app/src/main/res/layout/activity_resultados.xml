@@ -304,10 +304,11 @@
 
                     <TextView
                         android:id="@+id/tv_ssd"
-                        android:layout_width="wrap_content"
+                        android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/roboto_regular"
-                        android:textSize="15dp"/>
+                        android:textSize="15dp"
+                        android:singleLine="false"/>
 
                     <Space
                         android:layout_width="match_parent"
@@ -392,7 +393,7 @@
 
                         <TextView
                             android:id="@+id/tv_radeon"
-                            android:layout_width="wrap_content"
+                            android:layout_width="220dp"
                             android:layout_height="wrap_content"
                             android:textSize="15dp"
                             android:singleLine="false"
@@ -428,7 +429,7 @@
 
                         <TextView
                             android:id="@+id/tv_nvidia"
-                            android:layout_width="wrap_content"
+                            android:layout_width="200dp"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_regular"
                             android:singleLine="false"
